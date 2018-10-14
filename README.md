@@ -1,4 +1,4 @@
-# lightnight.bitcoinnova.org
+# Lightnight Nodes | Bitcoin Nova
 
 This repository contains the source code for the lightnight.bitcoinnova.org website.
 
