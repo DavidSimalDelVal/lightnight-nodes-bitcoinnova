@@ -4,7 +4,7 @@ This repository contains the source code for the lightnight.bitcoinnova.org webs
 
 It is designed to work hand in hand with the following additional service.
 
-* https://github.com/Bitcoin-N/bitcoinnova-api-proxy
+* https://github.com/BitcoinNova/bitcoinnova-api-proxy
 
 ## To Use
 
@@ -14,11 +14,11 @@ You can then update the list of nodes to show on the site in ``js/config.js`` in
 
 ```javascript
 const nodes = [
-  { name: 'pool.bitcoinnova.org', hostname: 'pool.bitcoinnova.org', port: 45223, region: 'Germany' },
-  { name: 'seed-2.bitcoinnova.org', hostname: '37.59.108.203', port: 45223, region: 'France' },
-  { name: 'superblockchain.con-ip.com', hostname: 'superblockchain.con-ip.com', port: 45223, region: 'Spain' },
-  { name: 'btn.gonspool.com', hostname: 'btn.gonspool.com', port: 45223, region: 'France' },
-  { name: 'cryptonight.bobpool.cc', hostname: 'cryptonote.bobpool.cc', port: 45223, region: 'United States' }
+  { name: 'Node-1 (pool.bitcoinnova.org)', hostname: '85.214.158.156', port: 45223, region: 'Germany' },
+  { name: 'Node-2 (37.59.108.203)', hostname: '37.59.108.203',  port: 45223, region: 'France' },
+  { name: 'Node-3 (superblockchain.con-ip.com)', hostname: 'superblockchain.con-ip.com', port: 45223, region: 'Spain' },
+  { name: 'Node-6 (149.202.44.54)', hostname: '149.202.44.54', port: 45223, region: 'France' },
+  { name: 'Node-Test(Raspberry)', hostname: 'test-node2.ddns.net', port: 45223, region: 'Spain' }
 ]
 ```
 
