@@ -33,7 +33,7 @@ function updateTable (table) {
           d[4] = data.height
           d[5] = (data.synced) ? 'Yes' : 'No'
           d[6] = data.difficulty
-          d[7] = (data.globalHashRate / 1000000).toFixed(2) + ' MH/s'
+	        d[7] = (data.hashrate / 1000000).toFixed(2) + ' MH/s'
           d[8] = data.tx_pool_size
           d[9] = data.tx_count
           d[10] = data.incoming_connections_count
@@ -74,7 +74,7 @@ function loadTable (table) {
             data.height,
             (data.synced) ? 'Yes' : 'No',
             data.difficulty,
-            (data.globalHashRate / 1000000).toFixed(2) + ' MH/s',
+            (data.hashrate / 1000000).toFixed(2) + ' MH/s',
             data.tx_pool_size,
             data.tx_count,
             data.incoming_connections_count,
